@@ -45,7 +45,7 @@ fi
 
 # Run the desktop environment
 echo "**** Starting Xfce4 ****"
-/usr/bin/startxfce4 &
+/usr/bin/startplasma-wayland &
 desktop_pid=$!
 touch /tmp/.started-desktop
 
